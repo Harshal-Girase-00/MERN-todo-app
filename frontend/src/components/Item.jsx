@@ -6,7 +6,7 @@ function Item2({ id, todoName, todoDate, onBtnClick }) {
   return (
     <div className="flex flex-col sm:flex-row items-center justify-between bg-gray-50 border border-gray-200 rounded-xl px-5 py-3 mb-3 hover:shadow-md transition-all duration-200">
       {/* To-Do Name */}
-      <div className="flex-1 text-gray-800 font-medium text-center sm:text-left break-words">
+      <div className="flex-1 text-gray-800 font-medium text-center sm:text-left wrap-break-word">
         {todoName}
       </div>
 
